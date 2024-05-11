@@ -1,0 +1,78 @@
+.menu-container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: black;
+    padding: 35px;
+    z-index: 10;
+    opacity: 0.65;
+    border-radius: 42px;
+  }
+  
+  .outer-container5 {
+    background-image: url(../../assets/IMG_501.avif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    opacity: 0.8;
+}
+
+  .category {
+    margin-bottom: 30px;
+  }
+  
+  .menu-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .menu-item {
+    font-size: 25px;
+    margin-bottom: 5px;
+    color: white;
+    position: relative; /* Ensure relative positioning for the price */
+    font-weight: 600;
+  }  
+
+.menu-title {
+    text-align: center;
+    margin-bottom: 30px;
+    color: azure;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+  }
+
+  .center-heading1 {
+    text-align: center;
+    color:rgb(253, 252, 250);
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.price {
+    position: absolute;
+    right: 0;
+    /*border-left: 1px solid #ccc;*/
+    color: white;
+    font-weight: 800px;
+    /*border-left: 1px dotted #ffffff; /* Add a dotted line between item name and price */
+    padding-left: 10px;
+  }
+
+  .category-line-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px; /* Adjust margin as needed */
+}
+
+.category-line-container h2 {
+    flex-grow: 1;
+    margin: 0;
+}
+
+.category-line {
+    height: 3px; /* Adjust the height as needed */
+    background-color: white; /* Ensure the line color matches your design */
+    border: none; /* Remove any border */
+}

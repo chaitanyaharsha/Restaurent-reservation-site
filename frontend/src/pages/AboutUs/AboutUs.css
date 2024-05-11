@@ -1,0 +1,71 @@
+  .about-us-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 20px;
+}
+
+.about-us-content {
+    max-width: 1000px;
+    text-align: center;
+}
+
+.restaurant-image {
+    width: 1000px;
+    max-width: 1000px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+.restaurant-details {
+    margin-bottom: 30px;
+}
+
+.restaurant-details h1 {
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+    color: rgb(212, 227, 244);
+    font-family: 'Times New Roman', Times, serif;
+    font-style: bold;
+}
+
+.restaurant-details p {
+  color: rgb(234, 241, 190);
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 28px;
+  font-style: bold;
+}
+
+.contact-details {
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+}
+
+.contact-details h2 {
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+    color: rgb(212, 227, 244);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.contact-details p {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: rgb(96, 100, 104);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: left;
+    font-style: bold;
+    margin-left: 300px;
+}
+
+.contact-details .icon {
+    vertical-align: middle; /* Align icons vertically */
+
+}
+
+.dot {
+    margin-left: 5px;
+}

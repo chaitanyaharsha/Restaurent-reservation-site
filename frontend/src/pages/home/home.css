@@ -1,0 +1,361 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: black;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  /* Welcome section */
+  .welcome {
+    background-image: url('../../assets/IMG_506.jpg');
+    background-size: cover;
+    padding: 100px 0;
+    text-align: center;
+    color: #fff;
+    height: 500px;
+  }
+  
+  .welcome h1 {
+    font-size: 4.5rem;
+    margin-bottom: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+  }
+  
+  .welcome h3 {
+    font-size: 1.5rem;
+  }
+  
+  /* About section */
+  .about {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    align-items: center;
+    padding: 80px 0;
+    background-color: rgb(245, 226, 192);
+    border-radius: 40px;
+  }
+  
+  .about img {
+    max-width: 100%;
+    border-radius: 20px;
+  }
+
+  .about h3 {
+    max-width: 100%;
+    font-family: Brush Script MT;
+    font-size: 45px;
+    color: black;
+  }
+
+  .about p {
+    max-width: 100%;
+    font-size: 20px;
+    color: black;
+    font-family:cursive;
+  }
+  
+  /* Offer section */ 
+.offer, .review1{
+    box-sizing: border-box;
+    margin-right: 150px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.offerh1{
+    margin-top: 30px;
+    font-family:cursive;
+    font-weight:1000;
+    color:yellow;
+}
+
+.offerh12{
+    font-family: Georgia, serif;
+    font-weight: 700;
+    color: white;
+}
+
+.flavours-line {
+    border: none;
+    border-top: 20px solid rgb(255, 255, 0);
+    width: 100px;
+    margin-top: 10px; 
+    margin-left: 100px;
+}
+
+.offerp{
+    color: white;
+    font-weight: 300;
+    text-align: left;
+    font-size: 25px;
+    margin-left: 100px;
+    padding: 20px;
+}
+
+.leftsection {
+    width: 50%;
+    padding-right: 5rem;
+    box-sizing: border-box;
+}
+  
+.rightsection {
+    width: 75%;
+    padding-left: 2rem;
+    box-sizing: border-box;
+}
+
+.rightsection img{
+    margin-top: 50px;
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+
+  /* Review section */
+  .review {
+    background-color: #333;
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+  }
+  
+  .review .container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    align-items: center;
+  }
+  
+  .review img {
+    max-width: 100%;
+  }
+
+  .review h2 {
+    font-family: Brush Script MT;
+    font-size: 45px;
+    color: yellow;
+  }
+
+  .review h1 {
+    font-size: 50px;
+  }
+  
+  .review p {
+    font-style: italic;
+    font-size: 25px;
+  }
+  
+  /* Contact section */
+  .contact {
+    text-align: center;
+  }
+  
+  .contact h2 {
+    font-size: 40px;
+    /*color: #333;*/
+    color: #fff;
+  }
+  
+  .contact h1 {
+    font-size: 50px;
+    /*color: #505050;*/
+    color: rgb(245, 226, 192);
+  }
+  
+  .contact .border {
+    border-bottom: 2px solid #ccc;
+    margin: 20px auto;
+    width: 50%;
+  }
+  
+  .contact-form {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #202020;
+    padding-bottom: 80px;
+    padding-top: 80px;
+    padding-right: 100px;
+    padding-left: 100px;
+    border-radius: 20px;
+  }
+  
+  .contact-form .form-label {
+    font-size: 18px;
+    color: white;
+  }
+  
+  .contact-form .form-control {
+    border-radius: 15px;
+    margin-bottom: 15px;
+  }
+  
+  .contact-form .submit-button {
+    width: 200px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    margin-left: 100px;
+    width: 200px;
+    margin-top: 20px;
+  }
+  
+  .contact-form .submit-button:hover {
+    background-color: #0056b3;
+  }  
+
+  /* FEEDBACK SECTION */
+  /* Form container */
+.form-container {
+  max-width: 600px;
+  margin: 20px auto;
+  background-image: url('../../assets/IMG_506.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-container form {
+  background-color: rgba(255, 255, 255, 0.669); /* Semi-transparent white background */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.form-container .form-label {
+  font-size: 18px;
+  color: #333;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.form-container .form-control {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.form-container .submit-button {
+  width: 100%;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.form-container .submit-button:hover {
+  background-color: #0056b3;
+}
+
+/* Feedback section */
+.feedback-section {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  text-align: center; /* Center align content */
+}
+
+.feedback-section h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+  font-family: Arial, sans-serif; /* Specify suitable font family */
+}
+
+.feedback-section p {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 20px;
+  font-family: Arial, sans-serif; /* Specify suitable font family */
+}
+
+/* Styles for the footer section */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 50px 0;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.footer-contact-info,
+.footer-social-links,
+.footer-opening-hours {
+  flex: 1 1 30%;
+  margin-bottom: 20px;
+}
+
+.footer-contact-info h3,
+.footer-social-links h3,
+.footer-opening-hours h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.footer-contact-info p,
+.footer-social-links ul,
+.footer-opening-hours p {
+  margin: 5px 0;
+}
+
+.footer-social-links ul {
+  padding: 0;
+}
+
+.footer-social-links li {
+  list-style-type: none;
+  margin-bottom: 5px;
+}
+
+.footer-social-links a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-social-links a:hover {
+  text-decoration: underline;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.footer-bottom p {
+  font-size: 14px;
+}
+
+.footer-bottom p a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-bottom p a:hover {
+  text-decoration: underline;
+}
+

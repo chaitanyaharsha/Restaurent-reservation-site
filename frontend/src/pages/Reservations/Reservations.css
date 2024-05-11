@@ -1,0 +1,73 @@
+.reservations {
+  background-image: url(../../assets/IMG_0003.jpg);
+  background-size: cover;
+  /*width: 650px;*/
+  height:550px;
+}
+
+.reservations-container {
+    padding: 50px;
+    background-color: white;
+  }
+
+  .reservations-container h2 {
+    text-align: center;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+  }
+  
+  .reservation-categories {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+  }
+  
+  .reservation-category {
+    width: 80%;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .reservation-category img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .reservation-category h3 {
+    margin-top: 5px;
+    color: wheat;
+    font-size: 35px;
+  }
+  
+  .reservation-category p {
+    margin-bottom: 10px;
+    color: white;
+    font-size: 20px;
+    font-family:'Courier New', Courier, monospace;
+  }
+
+  .image-hover:hover {
+    transform: scale(1.08);
+  }
+  
+  .btn:hover {
+    transform: scale(1.1);
+  }
+
+/*.btn {
+    /*display: block;*/
+    /*width: 250px;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+ button.btn:hover {
+    background-color: white;
+    color: #007bff;
+}*/
